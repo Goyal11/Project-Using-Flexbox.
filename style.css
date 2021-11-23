@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Lato&family=Montserrat&family=Poppins:wght@100;200;400;500&display=swap');
+*{
+    
+    padding: 0;
+}
+html{
+    font-size: 10px;
+
+}
+body{
+    font-family:'Poppins', sans-serif; 
+}
+/*.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}*/
+
+
+/*utility classes*/
+.btn {
+    border: 2px solid green;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.btn:hover{
+    background-color: crimson;
+}
+
+
+.navbar input[type="checkbox"],
+.navbar.hamburgerlines{
+    display: none;
+}
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa ;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    opacity: 0.85;
+    z-index: 999;
+}
+
+
+.navbarcontainer{
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul,.menuitems,li,a{
+ order: 2; 
+ display: flex;  
+ list-style: none;
+ text-decoration: none;
+ margin: 0.5rem;
+ font-size: 20px;
+ font-weight: 500px;
+
+}
+
+ul,.menuitems,li,a:hover{
+    color: yellowgreen;
+}
+
+
+h1, .logo{
+    order: 1;
+    font-size: 20px;
+    font-weight: 600px;
+    
+}
+
+.maincontainer{
+    height: 50vh;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.DtL97BVM9djTT59-djgiOAHaEc&pid=Api&P=0&w=297&h=179);
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+
+}
+
+.mainsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.maincontainer.mainsection,h1{
+    order: 1;
+    text-transform: uppercase;
+}
+.maincontainer.mainsection,p{
+    order: 2;
+    font-weight: 200px;
+}
+
+.Aboutcontainer{
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    width: 100%;
+
+}
+
+.Aboutsite{
+    display: flex;
+}
+.Aboutdetails{
+    display: flex;
+}
+.aboutimg{
+    
+max-width: 100%;
+max-height:100% ;
+    
+}
+
+    
+    
+
+#Food,.Hello{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 800;
+
+
+}
+
+.Food-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container{
+    
+        /* display: block;
+      
+        */margin-right: 5px;
+        max-height: 500px; /*
+        object-fit: cover;
+        object-position: center; */
+
+    }
+    
+.Food-container img {
+    max-height: 300px;
+}
+    
+
+.Menu >h2{
+    text-align: center;
+    font-size: 22px;
+}
+        
+.Food-Menu-Container{
+    display: flex;
+     margin-top: 40px;
+     flex: wrap;
+     flex-direction: column;
+     
+   
+}
+.Menu-items{
+    display: flex;
+    
+}
+
+.Food-image img{
+    display: block;
+    height: 300px;
+    width: 300px;
+    border-radius: 60%;
+    margin-top: 10px;
+    
+
+
+}  
+
+.Food-content{
+ display: flex;
+ align-items: center;
+}
+        
+
+
+.Test-container{
+    display: flex;
+    max-height: 500px ;
+    background-color: cadetblue;
+        
+
+    } 
+
+
+.Customer-image img{
+    display: block;
+    max-height: 300px;
+}
+
+.Test-tittle{
+    text-align: center;
+    font-size: 19px;
+    border-radius: 90%;
+}
+
+#Contact{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.Contact-con{
+    max-height: fit-content;
+    display: flex;
+    background-color: white;
+}
+
+.Contact-con img {
+    max-height: 300px;
+}
+.Form-container h2{
+    padding: 5px;
+}
+.Form-container input{
+    display: block;
+    width:100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 1rem;
+
+}
+
+#Hee h2{
+    text-align: center;
+    font-size: 20px;
+    background-color: tomato;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
